@@ -7,7 +7,7 @@ const Footer = () => {
       <div className="flex flex-col sm:grid grid-cols-[3fr_1fr_1fr] gap-14 my-10 mt-40 text-sm">
         {/* Brand Info */}
         <div>
-          <img src={assets.logo} className="mb-5 w-32" alt="Forever Logo" />
+          <img src={assets.logo} className="mb-5 w-32" alt="QuicKart Logo" />
           <p className="w-full md:w-2/3 text-gray-600">
             QuicKart is a modern e-commerce platform designed to provide a
             smooth, secure, and enjoyable online shopping experience. We focus
@@ -41,7 +41,7 @@ const Footer = () => {
       <hr />
 
       <p className="py-5 text-sm text-center text-gray-500">
-        © 2024 Forever Store. All rights reserved.
+        © 2024 QuicKart Store. All rights reserved.
       </p>
     </div>
   );
